@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Aplicar tema oscuro por defecto */
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
